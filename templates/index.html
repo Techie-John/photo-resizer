@@ -1,0 +1,34 @@
+<!-- templates/index.html -->
+{% extends "base.html" %}
+
+{% block content %}
+<form action="/upload" method="post" enctype="multipart/form-data">
+    <div class="form-group">
+        <label for="file">Choose an image file:</label>
+        <input type="file" name="file" id="file" accept="image/*" required>
+        <small style="color: #666; margin-top: 5px; display: block;">
+            Supported formats: PNG, JPG, JPEG, GIF, BMP, TIFF (Max: 16MB)
+        </small>
+    </div>
+    
+    <button type="submit" class="btn">Upload & Continue</button>
+</form>
+
+<div style="margin-top: 40px; text-align: center; color: #666;">
+    <h3>How it works:</h3>
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 20px; margin-top: 20px;">
+        <div>
+            <div style="font-size: 2em; margin-bottom: 10px;">1️⃣</div>
+            <p>Upload your image</p>
+        </div>
+        <div>
+            <div style="font-size: 2em; margin-bottom: 10px;">2️⃣</div>
+            <p>Set new dimensions</p>
+        </div>
+        <div>
+            <div style="font-size: 2em; margin-bottom: 10px;">3️⃣</div>
+            <p>Download resized image</p>
+        </div>
+    </div>
+</div>
+{% endblock %}
