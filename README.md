@@ -49,7 +49,7 @@ Try our **free online photo resizer**: [Live Demo](https://photo.techiejohn.spac
 
 ```bash
 # Clone the repository
-git clone https://github.com/techiejohn/photo-resizer.git
+git clone https://github.com/techie-john/photo-resizer.git
 cd photo-resizer
 
 # Install dependencies
