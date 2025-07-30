@@ -210,7 +210,7 @@ A: Verify Python version (3.7+) and Flask installation
 
 - **Issues**: [GitHub Issues](https://github.com/techie-john/photo-resizer/issues)
 - **Email**: ayodelejohn40@gmail.com
-- **Twitter**: [@TechieJohn](https://twitter.com/techiegbenga)
+- **Twitter**: [@TechieGbenga](https://twitter.com/techiegbenga)
 
 ## 📄 License
 
